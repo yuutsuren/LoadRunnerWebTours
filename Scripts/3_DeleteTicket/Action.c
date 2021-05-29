@@ -21,8 +21,8 @@ Action()
 	lr_start_transaction("loginPassword");
 
 	
-	web_reg_find("Text=Welcome",
-        LAST );
+	web_reg_find("Text=User password was correct", LAST );
+	
 	
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
