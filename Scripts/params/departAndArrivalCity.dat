@@ -1,0 +1,11 @@
+departCity,arrivalCity
+Denver,Paris
+Portland,Denver
+Los Angeles,San Francisco
+Paris,Portland
+Seattle,Sydney
+Sydney,Seattle
+Frankfurt,London
+London,Frankfurt
+San Francisco,Zurich
+Zurich,Los Angeles
