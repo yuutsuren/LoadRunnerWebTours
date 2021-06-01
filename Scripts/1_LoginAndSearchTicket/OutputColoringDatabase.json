@@ -1,9 +1,0 @@
-{"OutputFileHashSum":"90E7490F7BA39DD47FC8F575966049AD018F2CB95FCF0BDF5576EB2DEA0635F2"
-    ,"Converted":true,"OutputModifyDate":"2021-05-29T16:02:08.5378719Z",
-    "Metadatas":[],"MetadataTypes":[{"CategoryName":"VuGen.Replay",
-        "MetadataTypeName":"HP.LR.Vugen.Iteration","Id":1},
-        {"CategoryName":"VuGen.Replay","MetadataTypeName":
-            "HP.LR.Vugen.NotifyTransaction","Id":2},{"CategoryName":
-                "VuGen.Replay","MetadataTypeName":"Utt.Debugger.Error",
-                "Id":3},{"CategoryName":"VuGen.Replay",
-    "MetadataTypeName":"HP.LR.Vugen.NotifyAny","Id":4}]}
