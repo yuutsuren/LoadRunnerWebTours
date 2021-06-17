@@ -1,0 +1,80 @@
+﻿[BasicInfo]
+Title=Windows % Processor Time (CPU)
+TemplateName=WindowsResources
+ChartGroup=System Resources
+PerformanceClass=Resources
+
+[Graph Definitions]
+MainFactTableName=Monitor_meter
+DefaultDisplayType=Line
+UserGranularity=1
+RoundBarValues=0
+GraphDataCol1=
+TableName=T203984898T
+BasicTableName=
+AbsoluteTime=0
+DisableFilter=0
+SetPieToPercent=0
+DescFromFID=0
+NumSelectStrings=1
+ProduceRealStatis=1
+CompleteMissingValuesWithZeroes=0
+CompleteMissingValues=0
+ForceCompleteValsOnArea=1
+IdsToStrs=1
+StdMonitor=1
+HiddenFunctions=
+NumBasicFilters=1
+NumAdditionalFilters=0
+NumRawDataFilters=0
+HiddenDimensions=
+BasicGroupBy=System Resource Name, Host Name
+AdditionalGroupBy=
+HasGranularity=1
+YLeftAxisTitle=Resource usage
+YRightAxisTitle=
+TimeBasedXAxis=1
+XBottomAxisTitle=Elapsed scenario time hh:mm
+XTopAxisTitle=
+DisplayAsStairs=0
+RawDataDimension=Scenario Elapsed Time
+Scaling=1
+ZeroValue=0
+CompleteValFromLast=0
+Stacked=0
+BreakdownTree=0
+TransactionBreakdownGraph=0
+
+[SelectString0]
+Dimension=![Value]!
+CountField=![Acount]!
+AggregateFunction=Avg
+ResultSetAggregateFunction=Y Value
+Title=
+ActiveState=1
+
+[BasicFilter0]
+DimensionType=Discrete
+InternalDimName=
+Dimension=Event Type
+EqualFlag=1
+DimensionTableName=Event_Map
+NumValues=1
+UseEscapeSequence=1
+DimCount=1
+Dim_0=Server Resources
+LikeMode=0
+
+[DimensionFunctions]
+DimeFuncCount=0
+
+[Granularity]
+Dimension=Scenario Elapsed Time
+TimeScaleType=2
+Granularity=50
+BaseGranularityUIName=
+MinimumDefaultGranularity=1
+
+[Alerts]
+Number Of Alerts=0
+
